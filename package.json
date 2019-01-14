@@ -8,6 +8,9 @@
     "watch": "webpack --mode development --watch",
     "test": "jest"
   },
+  "jest": {
+    "rootDir": "test"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
