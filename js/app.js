@@ -12,6 +12,4 @@ class App {
   }
 }
 
-window.onload = () => {
-  const app = new App();
-}
+export default App;

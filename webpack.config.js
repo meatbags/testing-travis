@@ -17,7 +17,7 @@ var OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 var appName = 'APP';
 
 // paths
-var pathJS = './js/app.js';
+var pathJS = './js/main.js';
 var pathSCSS = './scss/main.js';
 var pathOutput = 'build';
 
