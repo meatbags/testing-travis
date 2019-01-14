@@ -1,3 +1,3 @@
 # Testing Travis
 
-Testing Travis CI/CD capabilities
+A reference repo. CI/CD pipeline.
