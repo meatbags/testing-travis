@@ -4,7 +4,11 @@
 
 class App {
   constructor() {
-    console.log("Hello Travis!");
+    console.log(this.getHello());
+  }
+
+  getHello() {
+    return "Hello Travis";
   }
 }
 
