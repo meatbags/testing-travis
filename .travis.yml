@@ -5,6 +5,7 @@ node_js:
 - stable
 install:
 - npm install
+- echo -e "Host $IP\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 script:
 - npm pack
 before_install:
