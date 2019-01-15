@@ -3,6 +3,7 @@ node_js:
 - stable
 before_install:
 - chmod +x .travis/deploy.sh
+- ls -l .travis/deploy.sh
 install:
 #- npm install
 - echo -e "Host $IP\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config # trust host

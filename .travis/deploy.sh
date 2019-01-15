@@ -7,4 +7,4 @@ git status
 git remote add deploy ssh://git@$IP:$PORT$DEPLOY_DIR
 git remote
 git branch
-git push deploy
+git push deploy master
