@@ -5,6 +5,4 @@ ssh-add ~/.ssh/id_rsa # Add the private key to SSH
 
 git config --global push.default matching
 git remote add deploy ssh://git@$IP:$PORT$DEPLOY_DIR
-git push deploy master
-
-EOF
+git push deploy

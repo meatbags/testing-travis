@@ -1,6 +1,4 @@
 language: node_js
-addons:
-  ssh_known_hosts: $IP
 node_js:
 - stable
 install:
