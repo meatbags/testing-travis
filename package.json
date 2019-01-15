@@ -5,11 +5,7 @@
   "main": "index.js",
   "scripts": {
     "pack": "webpack --mode production",
-    "watch": "webpack --mode development --watch",
-    "test": "jest"
-  },
-  "jest": {
-    "rootDir": "test"
+    "watch": "webpack --mode development --watch"
   },
   "author": "",
   "license": "ISC",
@@ -18,16 +14,13 @@
     "@babel/node": "^7.0.0",
     "@babel/preset-env": "^7.2.3",
     "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^23.6.0",
     "babel-loader": "^8.0.5",
     "babel-minify-webpack-plugin": "^0.3.1",
     "css-loader": "^2.1.0",
-    "jest": "^23.6.0",
     "mini-css-extract-plugin": "^0.5.0",
     "node-sass": "^4.11.0",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "postcss-loader": "^3.0.0",
-    "regenerator-runtime": "^0.13.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "uglifyjs-webpack-plugin": "^2.1.1",
